@@ -1,16 +1,32 @@
-# Ignore the following folders:
+# Ignore the following folders in their entirety:
 .vscode/*
 __pycache__/*
 inference_results/*
 pictures/*
-PaddleOCR/*
 
-# But include the following files:
-!PaddleOCR/configs/*
-!PaddleOCR/tools/infer/utility.py
-!PaddleOCR/tools/infer/predict_cls.py
-!PaddleOCR/tools/infer/predict_det.py
-!PaddleOCR/tools/infer/predict_rec.py
-!PaddleOCR/tools/infer/predict_system.py
-!PaddeOCR/tools/infer/train_data/rec/train.txt
-!PaddeOCR/tools/infer/train_data/rec/writer.py
+# For the PaddleOCR folder:
+PaddleOCR/__pycache__/*
+PaddleOCR/deploy/*
+PaddleOCR/det_50_vd_sast_totaltext_v2.0_train
+PaddleOCR/doc/*
+PaddleOCR/inference/*
+PaddleOCR/inference_results/*
+PaddleOCR/output/*
+PaddleOCR/ppocr/*
+PaddleOCR/PPOCRLabel/*
+PaddleOCR/StyleText/*
+PaddleOCR/__init__.py
+PaddleOCR/.clang_format.hook
+PaddleOCR/.pre-commit-config.yaml
+PaddleOCR/.style.yapf
+PaddleOCR/LICENSE
+PaddleOCR/MANIFEST.in
+PaddleOCR/paddleocr.py
+PaddleOCR/README_ch.md
+PaddleOCR/README.md
+PaddleOCR/setup.py
+PaddleOCR/train.sh
+PaddleOCR/tools/__pycache__/*
+PaddleOCR/tools/output/*
+PaddleOCR/tools/train_data/rec/train/*
+PaddleOCR/tools/infer/__pycache__/*
