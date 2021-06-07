@@ -1,0 +1,9 @@
+train model:
+train.py -c ./../configs/cls/cls_mv3.yml
+
+use model on a particular file:
+infer_cls.py -c ./../configs/cls/cls_mv3.yml -o Global.pretrained_model=output/cls/mv3/best_accuracy Global.load_static_weights=false Global.infer_img=./../../pictures/e1.jpg
+
+trained model --> inference model:
+export_model.py -c ./../configs/cls/cls_mv3.yml -o Global.pretrained_model=./output/cls/mv3/best_accuracy  Global.save_inference_dir=./../inference/cls/
+

@@ -1,0 +1,16 @@
+# Ignore the following folders:
+.vscode/*
+__pycache__/*
+inference_results/*
+pictures/*
+PaddleOCR/*
+
+# But include the following files:
+!PaddleOCR/configs/*
+!PaddleOCR/tools/infer/utility.py
+!PaddleOCR/tools/infer/predict_cls.py
+!PaddleOCR/tools/infer/predict_det.py
+!PaddleOCR/tools/infer/predict_rec.py
+!PaddleOCR/tools/infer/predict_system.py
+!PaddeOCR/tools/infer/train_data/rec/train.txt
+!PaddeOCR/tools/infer/train_data/rec/writer.py
