@@ -1,3 +1,7 @@
+# NOTE: 
+
+## This is not a functional repository as it's missing many large files required for the server to work. It was simply used as cloud-storage for code I wrote at Infobird.
+
 # OCR服务器文档
 
 ## 功能
